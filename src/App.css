@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: #ffff;
+}
+
+
+/*header div*/
+.navbar-nav .nav-item .active{
+  color: white;
+  fill:white
+}
+.navbar-nav .nav-item .nav-link:hover{
+  color: white;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: lightgray;
+  /* box-shadow: inset 0 0 5px grey; */
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: skyblue;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

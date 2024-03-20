@@ -1,0 +1,10 @@
+.footer-sty{
+  background-color: #5892b9;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+  }
+  .footer-link:hover{
+    text-decoration: 1px underline;
+  }

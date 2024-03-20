@@ -1,0 +1,53 @@
+.navbar-sty{
+    background-color: #33a7f5;
+}
+
+.main-logo{
+    height: 40px;
+    width: 100px;    
+}
+
+/*cart icon*/
+.cart-icon{
+    color:white;
+    font-size:small;
+    padding:0px 4px 0px 4px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+.cart-icon-svg{
+    fill: white;
+}
+.search-box{
+    width: 800px;
+}
+@media (max-width: 1456px) {
+    .search-box {
+      width: 730px;
+    }
+    
+    @media (max-width: 1387px) {
+      .search-box {
+        width: 650px;
+      }
+    }
+    
+    @media (max-width: 1307px) {
+      .search-box {
+        width: 550px;
+      }
+    }
+    
+    @media (max-width: 1207px) {
+      .search-box {
+        width: 470px;
+      }
+    }
+    
+    @media (max-width: 1127px) {
+        .search-box {
+          width: 330px;
+        }
+    }
+  }
